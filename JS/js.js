@@ -8,6 +8,10 @@ const en_id_li=document.getElementById('en_id_li');
 const logo_a=document.getElementById('logo_a');
 const logo_b=document.getElementById('logo_b');
 const logo_c=document.getElementById('logo_c');
+const lft_col_a_div=document.getElementById('lft_col_a_div');
+const as_containr_left_side_bar_apear=document.getElementById('as_containr_left_side_bar_apear');
+
+
 
 
 // console.log(product_li_id.lastElementChild);
@@ -153,3 +157,32 @@ en_id_li.addEventListener('mouseover',()=>{
     en_id_li.addEventListener('mouseleave',()=>{
         en_id_li.children[0].style.color='black';
     });
+
+
+    // en2 
+    let i_lft_col_a_div=0;
+    lft_col_a_div.addEventListener('click',()=>{
+        lft_col_a_div.classList.toggle('clolr');
+        lft_col_a_div.firstElementChild.classList.toggle('text_hoverglow');
+        lft_col_a_div.lastElementChild.color='white';  
+
+
+      if(i_lft_col_a_div==0){
+        lft_col_a_div.children[1].classList.remove('d-none');
+        lft_col_a_div.children[1].classList.add('d-block');
+         i_lft_col_a_div=1;
+      }else{
+        lft_col_a_div.children[1].classList.add('d-none');
+        lft_col_a_div.children[1].classList.remove('d-block');
+         i_lft_col_a_div=0;
+     }
+    }); 
+    lft_col_a_div.addEventListener('mouseover',()=>{
+        lft_col_a_div.children[0].style.color='#55B0FC';
+        
+        });
+        
+        lft_col_a_div.addEventListener('mouseleave',()=>{
+            lft_col_a_div.children[0].style.color='black';
+        });
+    
