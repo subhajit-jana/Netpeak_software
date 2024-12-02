@@ -13,6 +13,18 @@ const as_containr_left_side_bar_apear=document.getElementById('as_containr_left_
 const close_manu_icon=document.getElementById('close_manu_icon');
 const ul_show_btn=document.getElementById('ul_show_btn');
 const en_first_move=document.getElementById('en_first_move');
+const sidebar_span=document.querySelectorAll('.sidebar_span');
+const sidebar_open_close_btn=document.getElementById('sidebar_open_close_btn');
+const sidebar_shoe_2X=document.getElementById('sidebar_shoe_2X');
+
+const sidebar_togglebtn=document.getElementById('sidebar_togglebtn');
+const login_li_id_lg=document.getElementById('login_li_id_lg');
+const login_li_id_lg_I=document.getElementById('login_li_id_lg_I');
+const navbar_cheakh=document.getElementById('navbar_cheakh');
+const sidebar_open_close_btn_a=document.getElementById('sidebar_open_close_btn_a');
+
+
+
 
 
 
@@ -20,7 +32,6 @@ const logo_d=document.getElementById('logo_d');
 
 
 
-// console.log(product_li_id.lastElementChild);
 
 
 
@@ -99,13 +110,11 @@ company_ld_li.addEventListener('click',()=>{
     company_ld_li.classList.toggle('clolr');
     company_ld_li.firstChild.classList.toggle('text_hoverglow');
     company_ld_li.lastElementChild.color='white';
-    console.log('hellow frist');
     
     if(i_company_ld_li==0){
         company_ld_li.lastElementChild.classList.remove('d-lg-none');
         company_ld_li.lastElementChild.classList.add('d-lg-block');
         i_company_ld_li=1;
-        console.log('hellow');
         logo_b.classList.add('rotate30');
     }else{
         company_ld_li.lastElementChild.classList.add('d-lg-none');
@@ -134,7 +143,7 @@ let i_en_id_li=0;
 
 
 en_id_li.addEventListener('click',()=>{
-    console.log('click')
+    
     en_id_li.classList.toggle('clolr');
     en_id_li.firstChild.classList.toggle('text_hoverglow');
     en_id_li.lastElementChild.color='white';
@@ -155,9 +164,25 @@ en_id_li.addEventListener('click',()=>{
     
 })
 
+///////////
 
+
+en_id_li.addEventListener('mouseover',()=>{
+   
+    en_id_li.style.color='#55B0FC';
+})
+
+en_id_li.addEventListener('mouseleave',()=>{
     
-   console.log(en_first_move);
+    en_id_li.style.color='black';
+});
+
+
+
+
+///////////
+    
+   
    
 
     en_first_move.children[0].addEventListener('mouseover',()=>{
@@ -190,6 +215,8 @@ en_id_li.addEventListener('click',()=>{
         en_first_move.children[2].style.backgroundColor="transparent";
         en_first_move.children[2].style.color='black';
     });
+
+          
 
 
 
@@ -290,7 +317,7 @@ en_id_li.addEventListener('click',()=>{
 
         // menu_close btn 0;
         let menu_close_btn_I=0;
-        console.log(close_manu_icon);
+      
         
         close_manu_icon.addEventListener('click',()=>{
 
@@ -318,3 +345,65 @@ en_id_li.addEventListener('click',()=>{
             
             
         })
+
+let sidebar_open_close_btn_i=0;
+sidebar_open_close_btn_a.addEventListener('click',()=>{
+    if(sidebar_open_close_btn_i==0){
+
+        sidebar_open_close_btn.style.transform='rotate(0deg)';
+        
+        sidebar_span.forEach((x)=>{
+            x.classList.add('d-md-none')
+            })
+            sidebar_open_close_btn_i=1;
+
+    }else{
+        sidebar_span.forEach((x)=>{
+            x.classList.remove('d-md-none')
+            })
+            sidebar_open_close_btn.style.transform='rotate(180deg)';
+            sidebar_open_close_btn_i=0;
+    }
+   
+})
+
+
+//////
+// sidebar 
+
+sidebar_shoe_2X.addEventListener('click',()=>{
+    sidebar_togglebtn.classList.toggle("d-none");
+
+})
+
+
+
+//////////
+
+
+
+login_li_id_lg.addEventListener('mouseover',()=>{
+   
+    login_li_id_lg_I.style.color='#55B0FC';
+})
+
+login_li_id_lg.addEventListener('mouseleave',()=>{
+    
+    login_li_id_lg_I.style.color='black';
+});
+
+//////
+console.log(navbar_cheakh.offsetHeight)
+
+
+
+
+
+///////
+
+
+
+
+
+
+

@@ -105,3 +105,92 @@ transform: rotate(180deg);
   width: 2rem;
   
 }
+.sidebar_toggle_menu_div{
+  position: absolute;
+  background-color:#e2e1e1;
+  width: 100%;
+  display: flex;
+  bottom: 0%;}
+  .sidebar_toggle_menu_div:hover{
+    background-color:#fbf5f5;
+
+  
+  
+  }
+
+.fa-angle-left{ 
+transform:rotate(180deg);
+
+}
+.sidebar_main_container{
+    background-color: #EFF0F1;
+  
+  padding-top: 64px;
+}
+.Inbox_hover:hover{
+    background-color: #f5f7f7;
+  
+}
+.Inbox_hover{
+
+color: #55B0FC
+;
+}
+
+
+
+.Updates_span:hover{
+    background-color: #f5f7f7;
+  color: #FF8F00;
+
+
+}
+.Auditspan:hover{
+    background-color: #f5f7f7;
+    color: #FF5C38;
+  
+
+
+}
+.Howspan:hover{
+    background-color: #f5f7f7;
+    color: #285ecbc8;
+  
+
+
+}
+.Usespan:hover{
+    background-color: #f5f7f7;
+    color: #28CB98;
+  
+
+
+}
+.spanList:hover{
+    background-color: #f5f7f7;
+    color: #A1CF39;
+  
+
+
+}
+.Fromspan:hover{
+    background-color: #f5f7f7;
+    color: #EF626C;
+  
+
+
+}
+.Newsspan:hover{
+    background-color: #f5f7f7;
+    color: #806CFB;
+  
+
+
+}
+.Quizzesspan:hover{
+    background-color: #f5f7f7;
+    color: #00CAF8;
+  
+
+
+}

@@ -1,4 +1,10 @@
 @media (width<=575px) and (width>=0px){
+    .sidebar_main_container{
+        background-color:  #EFF0F1;
+        
+        width: 100vw;
+        
+        }
     .Log_contain_li{
         padding-left: 2rem !important;
     }
@@ -19,10 +25,9 @@
     right: 0;
     
     padding: 0;
-    /* width: 100vw !important; */
     overflow-y: scroll;
-        height: 100vh;
-        width: 100%;
+     height: 100vh;
+     width: 100%;
         
     
         
@@ -96,6 +101,14 @@
 
 }
 @media (width<=767px) and (width>=576px){
+
+    .sidebar_main_container{
+    background-color:  #EFF0F1;
+    
+    width: 100vw;
+    
+    }
+
     .Log_contain_li{
         padding-left: 2rem !important;
     }
