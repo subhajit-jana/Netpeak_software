@@ -10,7 +10,13 @@ const logo_b=document.getElementById('logo_b');
 const logo_c=document.getElementById('logo_c');
 const lft_col_a_div=document.getElementById('lft_col_a_div');
 const as_containr_left_side_bar_apear=document.getElementById('as_containr_left_side_bar_apear');
+const close_manu_icon=document.getElementById('close_manu_icon');
+const ul_show_btn=document.getElementById('ul_show_btn');
+const en_first_move=document.getElementById('en_first_move');
 
+
+
+const logo_d=document.getElementById('logo_d');
 
 
 
@@ -149,14 +155,72 @@ en_id_li.addEventListener('click',()=>{
     
 })
 
-en_id_li.addEventListener('mouseover',()=>{
-    en_id_li.children[0].style.color='#55B0FC';
+
     
-    });
+   console.log(en_first_move);
+   
+
+    en_first_move.children[0].addEventListener('mouseover',()=>{
+        en_first_move.children[0].style.backgroundColor=" #F5F6F7";
+        en_first_move.children[0].style.color='#55B0FC';
+    })
     
-    en_id_li.addEventListener('mouseleave',()=>{
-        en_id_li.children[0].style.color='black';
+    en_first_move.children[0].addEventListener('mouseleave',()=>{
+        en_first_move.children[0].style.backgroundColor="transparent";
+        en_first_move.children[0].style.color='black';
     });
+
+
+    en_first_move.children[1].addEventListener('mouseover',()=>{
+        en_first_move.children[1].style.backgroundColor=" #F5F6F7";
+        en_first_move.children[1].style.color='#55B0FC';
+    })
+    
+    en_first_move.children[1].addEventListener('mouseleave',()=>{
+        en_first_move.children[1].style.backgroundColor="transparent";
+        en_first_move.children[1].style.color='black';
+    });
+
+    en_first_move.children[2].addEventListener('mouseover',()=>{
+        en_first_move.children[2].style.backgroundColor=" #F5F6F7";
+        en_first_move.children[2].style.color='#55B0FC';
+    })
+    
+    en_first_move.children[2].addEventListener('mouseleave',()=>{
+        en_first_move.children[2].style.backgroundColor="transparent";
+        en_first_move.children[2].style.color='black';
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     // en2 
@@ -171,10 +235,12 @@ en_id_li.addEventListener('mouseover',()=>{
         lft_col_a_div.children[1].classList.remove('d-none');
         lft_col_a_div.children[1].classList.add('d-block');
          i_lft_col_a_div=1;
+         logo_d.classList.add('rotate30');
       }else{
         lft_col_a_div.children[1].classList.add('d-none');
         lft_col_a_div.children[1].classList.remove('d-block');
          i_lft_col_a_div=0;
+         logo_d.classList.remove('rotate30');
      }
     }); 
     lft_col_a_div.addEventListener('mouseover',()=>{
@@ -186,3 +252,69 @@ en_id_li.addEventListener('mouseover',()=>{
             lft_col_a_div.children[0].style.color='black';
         });
     
+
+
+
+        as_containr_left_side_bar_apear.children[0].addEventListener('mouseover',()=>{
+            as_containr_left_side_bar_apear.children[0].style.color='#55B0FC';            
+
+        
+        });
+        
+        as_containr_left_side_bar_apear.children[0].addEventListener('mouseleave',()=>{
+            as_containr_left_side_bar_apear.children[0].style.color='black';
+        });
+
+
+        as_containr_left_side_bar_apear.children[1].addEventListener('mouseover',()=>{
+            as_containr_left_side_bar_apear.children[1].style.color='#55B0FC';            
+
+        
+        });
+        
+        as_containr_left_side_bar_apear.children[1].addEventListener('mouseleave',()=>{
+            as_containr_left_side_bar_apear.children[1].style.color='black';
+        });
+
+
+        as_containr_left_side_bar_apear.children[2].addEventListener('mouseover',()=>{
+            as_containr_left_side_bar_apear.children[2].style.color='#55B0FC';            
+
+        
+        });
+        
+        as_containr_left_side_bar_apear.children[2].addEventListener('mouseleave',()=>{
+            as_containr_left_side_bar_apear.children[2].style.color='black';
+        });
+
+
+        // menu_close btn 0;
+        let menu_close_btn_I=0;
+        console.log(close_manu_icon);
+        
+        close_manu_icon.addEventListener('click',()=>{
+
+
+            if(menu_close_btn_I==0){
+                close_manu_icon.children[0].classList.add('d-none');
+                close_manu_icon.children[1].classList.add('d-block');
+                close_manu_icon.children[1].classList.remove('d-none');
+                menu_close_btn_I=1;
+                ul_show_btn.classList.add('d-none')
+                ul_show_btn.classList.add('d-lg-flex')
+
+
+            }else{
+
+                close_manu_icon.children[0].classList.remove('d-none');
+                close_manu_icon.children[1].classList.remove('d-block');
+                close_manu_icon.children[1].classList.add('d-none');
+                ul_show_btn.classList.remove('d-none')
+                menu_close_btn_I=0;
+               
+
+            }
+           
+            
+            
+        })
