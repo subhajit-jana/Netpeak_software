@@ -22,13 +22,8 @@ const login_li_id_lg=document.getElementById('login_li_id_lg');
 const login_li_id_lg_I=document.getElementById('login_li_id_lg_I');
 const navbar_cheakh=document.getElementById('navbar_cheakh');
 const sidebar_open_close_btn_a=document.getElementById('sidebar_open_close_btn_a');
-
-
-
-
-
-
 const logo_d=document.getElementById('logo_d');
+const first_img_container_main=document.getElementById('first_img_container_main');
 
 
 
@@ -216,38 +211,6 @@ en_id_li.addEventListener('mouseleave',()=>{
         en_first_move.children[2].style.color='black';
     });
 
-          
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     // en2 
@@ -348,7 +311,12 @@ en_id_li.addEventListener('mouseleave',()=>{
 
 let sidebar_open_close_btn_i=0;
 sidebar_open_close_btn_a.addEventListener('click',()=>{
+    sidebar_togglebtn.classList.toggle('sidebar_main_container_width')
+
+    first_img_container_main.classList.toggle('first_img_container_main');
+    
     if(sidebar_open_close_btn_i==0){
+        
 
         sidebar_open_close_btn.style.transform='rotate(0deg)';
         
@@ -393,13 +361,13 @@ login_li_id_lg.addEventListener('mouseleave',()=>{
 });
 
 //////
-console.log(navbar_cheakh.offsetHeight)
 
 
 
 
 
 ///////
+
 
 
 

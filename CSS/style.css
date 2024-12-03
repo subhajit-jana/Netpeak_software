@@ -122,10 +122,15 @@ transform: rotate(180deg);
 transform:rotate(180deg);
 
 }
+.sidebar_main_container_width{
+  width: 13rem;
+  
+}
 .sidebar_main_container{
     background-color: #EFF0F1;
   
   padding-top: 64px;
+  
 }
 .Inbox_hover:hover{
     background-color: #f5f7f7;
@@ -191,6 +196,47 @@ color: #55B0FC
     background-color: #f5f7f7;
     color: #00CAF8;
   
+
+
+}
+.first_img_container{
+max-width: 800px;
+
+
+}
+.first_img_container_main{
+padding-left: 14rem;
+
+}
+.firstimg{
+ background-image: url(../IMG/macos-sonoma-banner-scaled.jpg);
+ height: 20rem;
+background-size: 100% 100%;
+
+}
+.form_select{
+width: 12rem;
+
+}
+.top_img_cboox{
+  height: 12rem;
+  width: 100%;
+  
+  
+  background-image: url(../IMG/web.jpg);
+  background-size: 100% 100%;
+}
+.top_img_cboox a{
+    background-color: #EF626C;
+  
+}
+.content_box_wraper{
+
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+}
+.show_more{
+  background-color: #47AAFD;
 
 
 }

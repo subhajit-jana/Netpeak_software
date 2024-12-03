@@ -1,4 +1,18 @@
 @media (width<=575px) and (width>=0px){
+    .form_select{
+        width: 10rem !important;
+        
+        }
+    .first_img_container{
+        /* max-width: 767px; */
+        width: 95%;
+        
+        
+        }
+    .first_img_container_main{
+        padding-left: 0%;
+        
+        }
     .sidebar_main_container{
         background-color:  #EFF0F1;
         
@@ -101,6 +115,16 @@
 
 }
 @media (width<=767px) and (width>=576px){
+    .first_img_container{
+        /* max-width: 767px; */
+        width: 95%;
+        
+        
+        }
+    .first_img_container_main{
+        padding-left: 0%;
+        
+        }
 
     .sidebar_main_container{
     background-color:  #EFF0F1;
@@ -210,6 +234,16 @@
 
 }
 @media (width<=991px) and (width>=768px){
+    .first_img_container{
+        max-width: 650px;
+       
+        
+        
+        }
+    .first_img_container_main{
+        padding-left: 14rem;
+        
+        }
     .Log_contain_li{
         padding-left: 2rem !important;
     }
@@ -307,5 +341,6 @@
 
 
 }
+
 
 
