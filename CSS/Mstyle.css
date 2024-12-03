@@ -1,6 +1,6 @@
 @media (width<=575px) and (width>=0px){
     .content_container_f{
-        background-color: red;
+       
       
     max-width: 900px;
     width: 100%;
@@ -127,7 +127,7 @@
 }
 @media (width<=767px) and (width>=576px){
     .content_container_f{
-        background-color: red;
+       
       
     max-width: 900px;
     width: 100%;
