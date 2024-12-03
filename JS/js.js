@@ -24,6 +24,8 @@ const navbar_cheakh=document.getElementById('navbar_cheakh');
 const sidebar_open_close_btn_a=document.getElementById('sidebar_open_close_btn_a');
 const logo_d=document.getElementById('logo_d');
 const first_img_container_main=document.getElementById('first_img_container_main');
+const footer_container_addp=document.getElementById('footer_container_addp');
+
 
 
 
@@ -311,6 +313,7 @@ en_id_li.addEventListener('mouseleave',()=>{
 
 let sidebar_open_close_btn_i=0;
 sidebar_open_close_btn_a.addEventListener('click',()=>{
+    footer_container_addp.classList.toggle('footer_container_addp')
     sidebar_togglebtn.classList.toggle('sidebar_main_container_width')
 
     first_img_container_main.classList.toggle('first_img_container_main');
