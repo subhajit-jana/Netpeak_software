@@ -49,3 +49,8 @@ function classremove(a,b){
   lang_opt_select.addEventListener('click',()=>{
     lang_opt_select_a.classList.toggle('d-none');
   })
+  body.addEventListener('click',
+    ()=>{
+      lang_opt_select_a.classList.remove("d-none");
+    }
+  )
