@@ -276,8 +276,53 @@
 </div>
 
 <!-- login from start -->
- <div class="container-fluid bg_login_from">
- 
+ <div class="container-fluid bg_login_parent d-flex justify-content-center align-items-center">
+    <form action="" class=" bg-white from_login_page rounded-4">
+        <h1 class="text-nowrap text-center mt-3 mb-4">Log in to your account</h1>
+        <div class=" d-flex justify-content-center ">
+            <a href="#" class="bg-black text-decoration-none  text-center py-3 text-white google_login_btn ">
+                <span>
+                    <img src="../IMG/google_pic-removebg-preview.png" alt="" class="google_pic rounded-circle mx-2">
+                Log with Google
+                </span>
+            </a>
+        </div>
+
+
+        <p class="text-center my-2">or</p>
+
+
+        <p>
+            <label for="mail_input">Email</label>
+        </p>
+
+     <div class="position-relative">
+        <i class="fa-regular fa-envelope position-absolute icon_for_inp"></i>
+        <input type="text" placeholder="Enter Your Mail" id="mail_input" class="w-100 ps-5 rounded-3 border border-none" >
+     </div>
+
+        <div class="d-flex justify-content-between ">
+            <p class="my-3 fw-bolder">
+                <label for="password_input">
+                    Password
+                </label>
+            </p>
+            <p class="my-3 text-danger fw-bolder">Forgot?</p>
+        </div>
+        <div class="position-relative">
+            <i class="fa-solid fa-lock position-absolute icon_for_inp"></i>
+        <input type="text" placeholder="Enter your Password"  id="password_input" class="w-100 ps-5  rounded-3 border border-none">
+        </div>
+        <div class="">
+            <a class="account_log bg-success mt-3 text-decoration-none  text-center py-3 text-white ">log →</a>
+        </div>
+        <div class="d-flex justify-content-center gap-2 my-3    ">
+            <p>New to XYZ LTD?</p>
+            <p class="text-info-emphasis opacity-50">Create a Account →</p>
+        </div>
+
+
+    </form>
 
  </div>
 
