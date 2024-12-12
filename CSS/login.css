@@ -1,5 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+*{
+    box-sizing: border-box;
+}
 .bg_login_parent{
     /* background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);background-size: cover;  */
     /* background-image: linear-gradient(to top, #9be15d 0%, #00e3ae 100%); */
@@ -8,6 +11,7 @@ width: 100%;
 
 height: 92vh;
 }
+
 .from_login_page{   
    
     font-family: "Roboto Slab";
@@ -22,10 +26,21 @@ display: inline-block;
 border-radius: 10px;
 
 }
+.google_login_btn:hover{
+  background-color: #112536 !important;
+
+
+}
 .account_log{
-    width: 100%;
+width: 100%;
 display: inline-block;
 border-radius: 10px;
+}
+.account_log:hover{
+
+  background-color: rgba(4, 152, 90, 0.792) !important;
+
+
 }
 
 /* inpur vaule  */
@@ -82,4 +97,14 @@ height: 30px;
     top: 50%;
     transform: translateY(-50%);
     right: 0px;
+}
+.forgot_pass:hover{
+cursor: pointer;
+text-decoration: underline;
+
+}
+input:focus {
+    
+border: 2px solid rgba(1, 0, 0, 0.536) !important;
+box-sizing: border-box;
 }

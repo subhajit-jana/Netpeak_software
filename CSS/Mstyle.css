@@ -1,4 +1,9 @@
 @media (width<=575px) and (width>=0px){
+    .curve_contaienr{
+        border-radius: none;
+        box-shadow:none;
+        
+        }
     .content_container_f{
        
       
@@ -126,6 +131,11 @@
 
 }
 @media (width<=767px) and (width>=576px){
+    .curve_contaienr{
+        border-radius: none;
+        box-shadow:none;
+        
+        }
     .content_container_f{
        
       
@@ -256,6 +266,11 @@
 
 }
 @media (width<=991px) and (width>=768px){
+    .curve_contaienr{
+        border-radius: none;
+        box-shadow:none;
+        
+        }
     .first_img_container{
         max-width: 650px;
        
