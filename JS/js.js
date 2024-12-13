@@ -312,7 +312,7 @@ en_id_li.addEventListener('mouseleave',()=>{
         })
 
 let sidebar_open_close_btn_i=0;
-    sidebar_open_close_btn_a.addEventListener('click',()=>{
+sidebar_open_close_btn_a.addEventListener('click',()=>{
     footer_container_addp.classList.toggle('footer_container_addp')
     sidebar_togglebtn.classList.toggle('sidebar_main_container_width')
 
@@ -338,37 +338,6 @@ let sidebar_open_close_btn_i=0;
    
 })
 
-try {
-    let sidebar_open_close_btn_i=0;
-    sidebar_open_close_btn_a.addEventListener('click',()=>{
-    footer_container_addp.classList.toggle('footer_container_addp')
-    sidebar_togglebtn.classList.toggle('sidebar_main_container_width')
-
-    first_img_container_main.classList.toggle('first_img_container_main');
-    
-    if(sidebar_open_close_btn_i==0){
-        
-
-        sidebar_open_close_btn.style.transform='rotate(0deg)';
-        
-        sidebar_span.forEach((x)=>{
-            x.classList.add('d-md-none')
-            })
-            sidebar_open_close_btn_i=1;
-
-    }else{
-        sidebar_span.forEach((x)=>{
-            x.classList.remove('d-md-none')
-            })
-            sidebar_open_close_btn.style.transform='rotate(180deg)';
-            sidebar_open_close_btn_i=0;
-    }
-   
-})
-} catch (error) {
-    console.log(error)
-    
-}
 
 //////
 // sidebar 
@@ -401,11 +370,3 @@ login_li_id_lg.addEventListener('mouseleave',()=>{
 
 
 ///////
-
-
-
-
-
-
-
-

@@ -110,3 +110,7 @@ width: 50%;
 
 
 }
+.trans_classs_id{
+transition: all 2s ease-in;
+
+}
