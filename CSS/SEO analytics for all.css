@@ -114,3 +114,24 @@ width: 50%;
 transition: all 2s ease-in;
 
 }
+.nss_contaier_flu{
+  background-color:#548330;
+
+
+}
+.wrapber_box_GRoup_img{
+ background-image: url(../IMG/tech_upgrade_.jpg);
+ background-size: 100% 100%;
+ height: 15rem;
+
+
+}
+
+.col_shadow_www{
+  margin-inline: auto;
+box-shadow: 0px 0px 1px 0px black;
+
+}
+.col_shadow_www:hover{
+  box-shadow: 0px 0px 3px 0px rgb(57, 46, 46);
+}

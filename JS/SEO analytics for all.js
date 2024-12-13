@@ -55,8 +55,6 @@ sco_issu4.addEventListener('click',()=>{
     
 })
 
-
-
 function bg_change(a,b){
    a.style.display="block "
    b.style.backgroundColor="#ffbfbf"
