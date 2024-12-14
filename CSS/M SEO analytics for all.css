@@ -1,4 +1,12 @@
 @media (width<=575px) and (width>=0px){
+    .this_class_forIMfg img{
+
+        width: 100px;
+        height: 70px;
+        
+        }
+
+    
     .h1_code{
         width: 100%;
         
@@ -44,6 +52,12 @@
         }
 }
 @media (width<=767px) and (width>=576px){
+    .this_class_forIMfg img{
+
+    width: 130px;
+    height: 80px;
+    
+    }
     .h1_code{
         width: 100%;
         

@@ -129,7 +129,8 @@ transition: all 2s ease-in;
 
 .col_shadow_www{
   margin-inline: auto;
-box-shadow: 0px 0px 1px 0px black;
+  border: 1px solid rgba(51, 49, 49, 0.527);
+
 
 }
 .col_shadow_www:hover{
@@ -140,3 +141,44 @@ box-shadow: 0px 0px 1px 0px black;
 
 
 }
+.wisf_clilck_arrow{
+transform: rotate(180deg);
+
+}
+.clickopen_containergdfg{
+border: 1px solid  rgba(125, 175, 112, 0.527);
+}
+.clickopen_containergdfg_a:hover{
+    background-color: rgba(125, 175, 112, 0.527);
+  
+
+
+}
+.clickopen_containergdfg_dfdf{
+  background-color: rgba(125, 175, 112, 0.527);
+
+
+
+}
+.nerpeakp{
+  color: #E27217;
+
+font-size: 30px;
+font-weight: bold;
+
+}
+.nerpeakpwwesd{
+
+  background-color: #E27217;
+
+}
+.nerpeakpwwe{
+
+  font-size: 40px;
+  font-weight: bold;
+  
+  }
+  .SEE_ALL_REVIEWS:hover{
+  box-shadow: 0px 0px 4px rgb(199, 20, 104);
+  
+  }
