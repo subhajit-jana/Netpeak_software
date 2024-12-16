@@ -163,3 +163,45 @@ padding: 1rem;
     background-color: #CAD39C !important;
   
 }
+.xffsdf{
+  animation: subhait 30s linear infinite;
+}
+
+@keyframes subhait{
+  0% {
+    
+      /* transform: translate(0, 0); */
+
+      transform: translate(-100%, 0);
+
+
+    }
+    100% {
+      /* transform: translate(-100%, 0); */
+
+      transform: translate(0, 0);
+
+
+    }
+}
+.xffsdfa{
+  animation: subhaita 30s linear infinite;
+}
+
+@keyframes subhaita{
+  0% {
+    
+      transform: translate(0, 0);
+
+      
+
+
+    }
+    100% {
+      transform: translate(-100%, 0);
+
+      
+
+
+    }
+}
