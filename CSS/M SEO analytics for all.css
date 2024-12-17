@@ -52,6 +52,12 @@
         }
 }
 @media (width<=767px) and (width>=576px){
+    .container_fot_companylogo img{
+        filter: grayscale(1) contrast(1.5) brightness(1);
+        width: 100px;
+        height: 100px;
+    
+    }
     .this_class_forIMfg img{
 
     width: 130px;
