@@ -122,4 +122,42 @@ p2firstclick.addEventListener("click", () => {
     adddd(p2paragarap, p22paragraph, p23paragraptclick, p24paragraph);
     imgen22.src = "../IMG/seo9.png";
   });
-  
+  // start here 
+  const divclick=document.getElementsByClassName('curs');
+  divclick[0].addEventListener('click',()=>{
+    divclick[0].children[1].classList.toggle('fa-angle-down')
+    divclick[0].children[1].classList.toggle('fa-angle-up')
+    divclick[0].parentElement.classList.toggle('hoevercadd')
+
+  })
+
+  // for(i=0; i<divclick.length; i++){
+  //   divclick[i].addEventListener('click',()=>{
+  //     divclick[i].children[1].classList.toggle('fa-angle-down')
+  //     divclick[i].children[1].classList.toggle('fa-angle-up')
+  //   })
+  // }
+
+   divclick[1].addEventListener('click',()=>{
+    divclick[1].children[1].classList.toggle('fa-angle-down')
+    divclick[1].children[1].classList.toggle('fa-angle-up')
+    divclick[1].parentElement.classList.toggle('hoevercadd')
+  })
+ divclick[2].addEventListener('click',()=>{
+    divclick[2].children[1].classList.toggle('fa-angle-down')
+    divclick[2].children[1].classList.toggle('fa-angle-up')
+    divclick[2].parentElement.classList.toggle('hoevercadd')
+
+  })
+ divclick[3].addEventListener('click',()=>{
+    divclick[3].children[1].classList.toggle('fa-angle-down')
+    divclick[3].children[1].classList.toggle('fa-angle-up')
+    divclick[3].parentElement.classList.toggle('hoevercadd')
+
+  })
+ divclick[4].addEventListener('click',()=>{
+    divclick[4].children[1].classList.toggle('fa-angle-down')
+    divclick[4].children[1].classList.toggle('fa-angle-up')
+    divclick[4].parentElement.classList.toggle('hoevercadd')
+
+  })
