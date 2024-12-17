@@ -1,7 +1,7 @@
 @media (width<=575px) and (width>=0px) {
   
 .fsfsdfs343sf{
-  width: 80% !important;
+  width: 100% !important;
   }
 
 
@@ -30,14 +30,14 @@
     font-size: .8rem;
     font-family: "Poppins", sans-serif;
   }
-  .sary09344{
-    padding: 1rem 2.5rem;
+  .sary09344 {
+    padding: 1rem 1.5rem;
     display: inline-block;
     background-color: #000000;
     color: #46BB1B;
     font-family: "Poppins", sans-serif;
     font-size: 1rem;
-    }
+}
     .start3443{
         font-size: 1rem;
         font-family: "Poppins", sans-serif;
